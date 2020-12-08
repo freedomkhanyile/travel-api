@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Travel.Api.Common\Travel.Api.Common.csproj" />
+    <ProjectReference Include="..\Travel.Api.Models\Travel.Api.Models.csproj" />
+    <ProjectReference Include="..\Travel.Data.Access\Travel.Data.Access.csproj" />
+    <ProjectReference Include="..\Travel.Data.Model\Travel.Data.Model.csproj" />
+    <ProjectReference Include="..\Travel.Security\Travel.Security.csproj" />
+  </ItemGroup>
+
+</Project>
